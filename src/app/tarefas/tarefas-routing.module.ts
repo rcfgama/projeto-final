@@ -15,15 +15,15 @@ export const TarefaRoutes: Routes = [
                 component: ListarTarefaComponent
             },
             { 
-                path: 'tarefas/listar',
+                path: 'listar',
                 component: ListarTarefaComponent
             },
             {
-                path: 'tarefas/cadastrar',
+                path: 'cadastrar',
                 component: CadastrarTarefaComponent
             },
             {
-                path: 'tarefas/editar/:id',
+                path: 'editar/:id',
                 component: EditarTarefaComponent                
             }
         ]
